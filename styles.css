@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+
+table {
+    width: 95%;
+    border-spacing: 5px;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 2px solid #d3d3d3;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    font-family: Georgia, serif;
+    font-size: 36px;
+}
+
+th {
+    font-weight: bold;
+    background-color: white;
+}
+
+tr:nth-child(odd) td {
+    background-color: #f1f1f1;
+}
+
+tr:nth-child(even) td {
+    background-color: white;
+}
